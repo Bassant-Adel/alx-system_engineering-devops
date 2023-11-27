@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# quite ps
+
+ps auxf | grep bash

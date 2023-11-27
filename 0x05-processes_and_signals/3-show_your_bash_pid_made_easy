@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# be quite
+
+pgrep -l bash
