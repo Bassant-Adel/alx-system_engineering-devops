@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# BEST School
+
+bx=1
+while [ $bx -le 10 ]
+do
+    echo "Best School";
+    if [ $bx -eq 9 ]
+    then
+        echo "Hi";
+    fi
+    ((bx++));
+done

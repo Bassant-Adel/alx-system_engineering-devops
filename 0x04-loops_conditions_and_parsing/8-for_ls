@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# LIST
+blist=$(ls)
+
+for bx in $blist; do
+  echo "${bx#*-}"
+done

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# FizzBuzz
+for bx in {1..100}
+do
+  if (( bx % 3 == 0 && bx % 5 == 0 )); then
+    echo "FizzBuzz";
+  elif (( bx % 3 == 0 ));
+  then
+    echo "Fizz";
+  elif (( bx % 5 == 0 )); then
+    echo "Buzz";
+  else
+    echo "$bx";
+  fi
+done

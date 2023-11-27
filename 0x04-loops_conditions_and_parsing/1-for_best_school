@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# BEST School
+for ((bx = 1; bx <= 10; bx++))
+do
+    echo "Best School";
+done

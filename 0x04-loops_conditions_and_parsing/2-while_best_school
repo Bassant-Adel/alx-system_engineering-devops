@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# BEST SCHOOL
+bx=1
+
+while [ $bx -le 10 ]
+do
+    echo "Best School";
+    ((bx++));
+done
