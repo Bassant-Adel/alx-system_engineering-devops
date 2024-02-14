@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# web debugg Run the `whoami`
+su "$1" -s /bin/bash -c 'whoami'
